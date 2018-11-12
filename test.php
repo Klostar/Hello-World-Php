@@ -1,30 +1,17 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-</head>
-<body>
-   
-   <?php
+<?php
+
+echo "Hello," . " ";
 
 
-//echo "Hello, World";
-
+ $names = array(
+        
+        "first_name" => "Chloe",
+        "last_name" => "Alcorn"
+                  
+                  );
     
-$information = array(
-    "first_name" => "Chloe",
-    "last_name" => "Alcorn",
-    "age" => 24,
-    "lives" => "Dunfermline",
+    //print_r($names);
     
-);
-
-echo $information["first_name"] . " " . $information["last_name"];
+    echo $names["first_name"] ." ". $names["last_name"];
 
 ?>
-    
-</body>
-</html>
-
-
